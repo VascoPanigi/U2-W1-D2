@@ -119,7 +119,7 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-.title-container {
+/* .title-container {
   position: relative;
 }
 
@@ -138,6 +138,17 @@ h1 {
 
 h1 {
   position: relative;
+} */
+
+h1 span {
+  position: relative;
+}
+
+#underline {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  opacity: 60%;
 }
 
 #newsletter-container {
@@ -191,6 +202,17 @@ h1 + p {
   h2 {
     font-size: 1.8rem;
     font-weight: 700;
+  }
+
+  #underline {
+    top: 100px;
+    width: 6em;
+  }
+
+  .top-buttons-container {
+    position: fixed;
+    bottom: -490px; /* Adjust bottom position as needed */
+    right: -10px;
   }
 }
 
